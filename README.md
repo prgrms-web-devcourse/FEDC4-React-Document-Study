@@ -1,7 +1,26 @@
 ## 리액트 공식문서 스터디
 
+### 멤버
+<table>
+ <tr>
+    <td align="center"><a href="https://github.com/from1to2"><img src="https://avatars.githubusercontent.com/from1to2" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/juyeon-park"><img src="https://avatars.githubusercontent.com/juyeon-park" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/Howon-Shin"><img src="https://avatars.githubusercontent.com/Howon-Shin" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/Eosdia"><img src="https://avatars.githubusercontent.com/Eosdia" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/bbearcookie"><img src="https://avatars.githubusercontent.com/bbearcookie" width="130px;" alt=""></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/from1to2"><b>남궁호수</b></a></td>
+    <td align="center"><a href="https://github.com/juyeon-park"><b>박주연</b></a></td>
+    <td align="center"><a href="https://github.com/Howon-Shin"><b>신호원<b></b></a></td>
+    <td align="center"><a href="https://github.com/Eosdia"><b>우현지</b></a></td>
+    <td align="center"><a href="https://github.com/bbearcookie"><b>이상훈</b></a></td>
+  </tr>
+</table>
+
+
 ### 진행 시각
-- **일정**: `23.08.18(금) ~ 23.09.13(수)` (5주 진행 예정)
+- **일정**: `23.08.18(금) ~ 23.09.13(수)` (5주 진행 예정)  
 첫 주차는 금요일, 이후에는 수요일마다 주 1회 진행
 - **시각**: 코어타임 시작 시간인 `13:00` 시부터
 
@@ -37,21 +56,3 @@
 ex) `[1주차] Describing the UI / 이상훈 / Your First Component.md`  
 3. 정리를 완료하면 PR의 이름을 `[이름] X주차 과제 제출` 로 작성합니다.  
 ex) `[이상훈] 1주차 과제 제출`  
-
-### 멤버
-<table>
- <tr>
-    <td align="center"><a href="https://github.com/from1to2"><img src="https://avatars.githubusercontent.com/from1to2" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/juyeon-park"><img src="https://avatars.githubusercontent.com/juyeon-park" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/Howon-Shin"><img src="https://avatars.githubusercontent.com/Howon-Shin" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/Eosdia"><img src="https://avatars.githubusercontent.com/Eosdia" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/bbearcookie"><img src="https://avatars.githubusercontent.com/bbearcookie" width="130px;" alt=""></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/from1to2"><b>남궁호수</b></a></td>
-    <td align="center"><a href="https://github.com/juyeon-park"><b>박주연</b></a></td>
-    <td align="center"><a href="https://github.com/Howon-Shin"><b>신호원<b></b></a></td>
-    <td align="center"><a href="https://github.com/Eosdia"><b>우현지</b></a></td>
-    <td align="center"><a href="https://github.com/bbearcookie"><b>이상훈</b></a></td>
-  </tr>
-</table>
