@@ -36,7 +36,7 @@
 
 ### 스터디 내용
 [공식 문서](https://react.dev/)의 Learn React 부분  
-(참고: [비공식 한글 번역 문서](https://react-ko.dev/)) 
+(참고: [한글 번역 문서](https://ko.react.dev/), [비공식 한글 번역 문서](https://react-ko.dev/))  
 
 - 8/18: Describing the UI
 - 8/23: Adding Interactivity
