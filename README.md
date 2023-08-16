@@ -46,8 +46,9 @@
 
 ### Github 이용 방법
 ### 최초 설정
-1. 현재 레포지토리를 `fork` 한 뒤, fork한 레포지토리를 `clone` 해서 로컬로 내려받습니다.  
-2. 로컬로 내려받은 레포지토리에 새로운 원격 저장소를 추가합니다.  
+1. 현재 레포지토리를 `fork` 한 뒤, fork한 레포지토리를 `clone` 해서 로컬로 내려받습니다.
+2. git init
+3. 로컬로 내려받은 레포지토리에 새로운 원격 저장소를 추가합니다.  
 `git remote add upstream https://github.com/prgrms-web-devcourse/FEDC4-React-Document-Study.git`  
 
 ### 과제 제출 방법
