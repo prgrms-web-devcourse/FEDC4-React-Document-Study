@@ -44,6 +44,7 @@ return (
 }
 
 --->다른 컴포넌트에서,
+<br>
 import { Profile, Profile2 } from './Gallery.js';
 <br>
 import Gallery from './Gallery.js';
