@@ -71,8 +71,7 @@ import Gallery from './Gallery.js';
 
 Web이 더욱 인터랙티브해지면서, 로직이 내용을 결정하는 경우가 많아졌습니다. 그래서 JavaScript가 HTML을 담당하게 되었죠! 이것이 바로 React에서 렌더링 로직과 마크업이 같은 위치에 함께 있게 된 이유입니다. 즉, 컴포넌트에서 말이죠.
 
-![Alt text](image.png)
-![Alt text](image-1.png)
+![image](https://github.com/prgrms-web-devcourse/FEDC4-React-Document-Study/assets/124763142/ab2f3b84-77b2-43af-a124-94d5419aa70a)
 
 <br>
 <br>
