@@ -1,9 +1,9 @@
 - 시작
 
-class 컴포넌트도 존재하지만, 공식문서에서 함수형 컴포넌트를 권장하고 있다.
+class 컴포넌트도 존재하지만, 공식문서에서 함수형 컴포넌트를 권장하고 있습니다.
 
-왜 함수형 컴포넌트를 쓰게 되었을까?
-과거와 다르게 React v16부터, useState를 통해 state를 관리할 수 있게 되었고, useEffect를 통해 lifeCycle을 관리할 수 있게 되었기 때문!
+왜 함수형 컴포넌트를 쓰게 되었을까요?
+과거와 다르게 React v16부터, useState를 통해 state를 관리할 수 있게 되었고, useEffect를 통해 lifeCycle을 관리할 수 있게 되었기 때문입니다!
 
 <br>
 <br>
@@ -69,7 +69,7 @@ import Gallery from './Gallery.js';
 <br>
 <br>
 
-Web이 더욱 인터랙티브해지면서, 로직이 내용을 결정하는 경우가 많아졌습니다. 그래서 JavaScript가 HTML을 담당하게 되었죠! 이것이 바로 React에서 렌더링 로직과 마크업이 같은 위치에 함께 있게 된 이유입니다. 즉, 컴포넌트에서 말입니다.
+Web이 더욱 인터랙티브해지면서, 로직이 내용을 결정하는 경우가 많아졌습니다. 그래서 JavaScript가 HTML을 담당하게 되었습니다! 이것이 바로 React에서 렌더링 로직과 마크업이 같은 위치에 함께 있게 된 이유입니다. 즉, 컴포넌트에서 말입니다.
 
 ![image](https://github.com/prgrms-web-devcourse/FEDC4-React-Document-Study/assets/124763142/ab2f3b84-77b2-43af-a124-94d5419aa70a)
 
