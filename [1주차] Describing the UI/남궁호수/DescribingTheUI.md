@@ -4,6 +4,7 @@ class 컴포넌트도 존재하지만, 공식문서에서 함수형 컴포넌트
 
 왜 함수형 컴포넌트를 쓰게 되었을까요?
 과거와 다르게 React v16부터, useState를 통해 state를 관리할 수 있게 되었고, useEffect를 통해 lifeCycle을 관리할 수 있게 되었기 때문입니다!
+
 ***
 <br>
 <br>
