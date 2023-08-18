@@ -1,4 +1,4 @@
-##시작
+## 시작
 
 class 컴포넌트도 존재하지만, 공식문서에서 함수형 컴포넌트를 권장하고 있습니다.
 
@@ -12,6 +12,7 @@ class 컴포넌트도 존재하지만, 공식문서에서 함수형 컴포넌트
 <br>
 <br>
 ***
+
 한 파일에서는 단 하나의 default export만 사용할 수 있지만 named export는 여러 번 사용할 수 있습니다.
 
 예시.
@@ -54,14 +55,14 @@ import Gallery from './Gallery.js';
 <br>
 <br>
 <br>
-
+***
 컴포넌트의 이름은 항상 대문자로 시작합니다.
 <br>
 <br>
 <br>
 <br>
 <br>
-
+***
 함수 컴포넌트는 JSX 마크업을 반환합니다.
 
 <br>
@@ -70,27 +71,27 @@ import Gallery from './Gallery.js';
 <br>
 <br>
 <br>
-
+***
 Web이 더욱 인터랙티브해지면서, 로직이 내용을 결정하는 경우가 많아졌습니다. 그래서 JavaScript가 HTML을 담당하게 되었습니다! 이것이 바로 React에서 렌더링 로직과 마크업이 같은 위치에 함께 있게 된 이유입니다. 즉, 컴포넌트에서 말입니다.
 
 ![image](https://github.com/prgrms-web-devcourse/FEDC4-React-Document-Study/assets/124763142/ab2f3b84-77b2-43af-a124-94d5419aa70a)
-
+***
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
-
+***
 JSX에서는 태그를 명시적으로 닫아야 합니다. <img>처럼 자체적으로 닫아주는 태그는 반드시 <img /> 형태로 작성해야 하며, <li>oranges와 같은 래핑 태그도 <li>oranges</li> 형태로 작성해야 합니다.
-
+***
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
-
+***
 react jsx의 어트리뷰트가 헷갈릴떄가 있었는데, 변환기를 통해 해결이 가능합니다! https://transform.tools/html-to-jsx
 
 기존 마크업에서 모든 어트리뷰트를 변환하는 것은 지루할 수 있습니다. 변환기를 사용하여 기존 HTML과 SVG를 JSX로 변환하는 것을 추천합니다. 변환기는 매우 유용하지만 그래도 JSX를 혼자서 편안하게 작성할 수 있도록 어트리뷰트를 어떻게 쓰는지 이해하는 것도 중요합니다!
@@ -98,24 +99,25 @@ react jsx의 어트리뷰트가 헷갈릴떄가 있었는데, 변환기를 통�
 +tmi로,
 js에서 만든 예시 데이터를 json으로 바꾸고 싶을 때 쓰면 좋겠다는 생각이 들었습니다.
 https://transform.tools/js-object-to-json
-
+***
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
-
+***
 중괄호를 사용하면 JavaScript 논리와 변수를 마크업으로 가져올 수 있습니다.
-
+***
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
-
+***
 props값으로 객체 주기.
+```
 export default function Profile() {
 return (
 <Avatar
@@ -124,15 +126,17 @@ size={100}
 />
 );
 }
-
+      ```
+***
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
-
+***
 props 객체 spread 뿌려주기
+      ```
 function Profile({ person, size, isSepia, thickBorder }) {
 return (
 <div className="card">
@@ -145,8 +149,10 @@ return (
 </div>
 );
 }
+```
 
 ------>
+```
 function Profile(props) {
 return (
 <div className="card">
@@ -154,7 +160,8 @@ return (
 </div>
 );
 }
-
+```
+***
 <br>
 <br>
 <br>
@@ -163,7 +170,7 @@ return (
 <br>
 
 JSX 태그 내에 콘텐츠를 중첩하면, 부모 컴포넌트는 해당 콘텐츠를 children이라는 prop으로 받을 것입니다. 예를 들어, 아래의 Card 컴포넌트는 <Avatar />로 설정된 children prop을 받아 이를 래퍼 div에 렌더링 할 것입니다.
-
+```
 import Avatar from './Avatar.js';
 
 function Card({ children }) {
@@ -187,7 +194,8 @@ person={{
 </Card>
 );
 }
-
+```
+***
 <br>
 <br>
 <br>
