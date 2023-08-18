@@ -1,7 +1,5 @@
 ## 시작
 
-***
-
 class 컴포넌트도 존재하지만, 공식문서에서 함수형 컴포넌트를 권장하고 있습니다.
 
 왜 함수형 컴포넌트를 쓰게 되었을까요?
@@ -90,15 +88,24 @@ Web이 더욱 인터랙티브해지면서, 로직이 내용을 결정하는 경�
 <br>
 <br>
 <br>
+
+
 ***
+
+```
 JSX에서는 태그를 명시적으로 닫아야 합니다. <img>처럼 자체적으로 닫아주는 태그는 반드시 <img /> 형태로 작성해야 하며, <li>oranges와 같은 래핑 태그도 <li>oranges</li> 형태로 작성해야 합니다.
+```
+
 ***
+
+
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
+***
 ***
 react jsx의 어트리뷰트가 헷갈릴떄가 있었는데, 변환기를 통해 해결이 가능합니다! https://transform.tools/html-to-jsx
 
@@ -107,24 +114,35 @@ react jsx의 어트리뷰트가 헷갈릴떄가 있었는데, 변환기를 통�
 +tmi로,
 js에서 만든 예시 데이터를 json으로 바꾸고 싶을 때 쓰면 좋겠다는 생각이 들었습니다.
 https://transform.tools/js-object-to-json
+
 ***
+
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
+
 ***
+
 중괄호를 사용하면 JavaScript 논리와 변수를 마크업으로 가져올 수 있습니다.
+
 ***
+
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
+
 ***
+
 props값으로 객체 주기.
+
+***
+
 ```
 export default function Profile() {
 return (
@@ -135,14 +153,18 @@ size={100}
 );
 }
       ```
+
 ***
+
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
+
 ***
+
 props 객체 spread 뿌려주기
       ```
 function Profile({ person, size, isSepia, thickBorder }) {
@@ -159,6 +181,8 @@ return (
 }
 ```
 
+***
+
 ------>
 ```
 function Profile(props) {
@@ -170,17 +194,21 @@ return (
 }
 ```
 
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 ***
 
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+```
 JSX 태그 내에 콘텐츠를 중첩하면, 부모 컴포넌트는 해당 콘텐츠를 children이라는 prop으로 받을 것입니다. 예를 들어, 아래의 Card 컴포넌트는 <Avatar />로 설정된 children prop을 받아 이를 래퍼 div에 렌더링 할 것입니다.
+```
+
+***
 ```
 import Avatar from './Avatar.js';
 
@@ -207,6 +235,8 @@ person={{
 }
 ```
 
+***
+
 <br>
 <br>
 <br>
@@ -214,7 +244,6 @@ person={{
 <br>
 <br>
 
-***
 
 uuid 패키지를 통해, 리스트 데이터 키 만들어주기
 https://www.npmjs.com/package/uuid
