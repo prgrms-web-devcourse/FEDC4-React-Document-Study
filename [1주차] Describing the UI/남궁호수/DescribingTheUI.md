@@ -1,20 +1,21 @@
-- 시작
+##시작
 
 class 컴포넌트도 존재하지만, 공식문서에서 함수형 컴포넌트를 권장하고 있습니다.
 
 왜 함수형 컴포넌트를 쓰게 되었을까요?
 과거와 다르게 React v16부터, useState를 통해 state를 관리할 수 있게 되었고, useEffect를 통해 lifeCycle을 관리할 수 있게 되었기 때문입니다!
-
+***
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
-
+***
 한 파일에서는 단 하나의 default export만 사용할 수 있지만 named export는 여러 번 사용할 수 있습니다.
 
 예시.
+```
 function Profile() {
 return (
 <img
@@ -42,13 +43,12 @@ return (
 </section>
 );
 }
-
+```
 --->다른 컴포넌트에서,
-<br>
+```
 import { Profile, Profile2 } from './Gallery.js';
-<br>
 import Gallery from './Gallery.js';
-
+```
 <br>
 <br>
 <br>
