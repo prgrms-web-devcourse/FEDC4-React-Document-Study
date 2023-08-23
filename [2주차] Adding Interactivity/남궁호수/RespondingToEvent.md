@@ -1,5 +1,5 @@
 ## 이벤트 응답
-***
+
 이벤트 핸들러 추가
 ```jsx
 export default function Button() {
@@ -184,8 +184,9 @@ export default function Toolbar() {
   <button onClick={e => e.stopPropagation()} />
 </div>
 ```
-
-## 기본 동작 방지
+***
+ 기본 동작 방지
+ 
 그 유명한 form의 submit 이벤트는 내부 버튼을 클릭할 때, 기본적으로 전체 페이지를 로드한다.
 ```jsx
 export default function Signup() {
