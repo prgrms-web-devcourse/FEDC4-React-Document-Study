@@ -18,7 +18,6 @@
   </tr>
 </table>
 
-
 ### 진행 시각
 - **일정**: `23.08.18(금) ~ 23.09.13(수)` (5주 진행 예정)  
 첫 주차는 금요일, 이후에는 수요일마다 주 1회 진행
@@ -38,17 +37,16 @@
 [공식 문서](https://react.dev/)의 Learn React 부분  
 (참고: [한글 번역 문서](https://ko.react.dev/), [비공식 한글 번역 문서](https://react-ko.dev/))  
 
-- 8/18: Describing the UI
-- 8/23: Adding Interactivity
-- 8/30: Managing State
-- 9/6: Escape Hatches - 1
-- 9/13: Escape Hatchew - 2 or react-query
+- 8/18: Describing the UI  
+- 8/23: Adding Interactivity  
+- 8/30: Managing State  
+- 9/6: Escape Hatches (You Might Not Need an Effect 까지)  
+- 9/13: Escape Hatches (Reusing Logic with Custom Hooks 까지)  
 
 ### Github 이용 방법
 ### 최초 설정
-1. 현재 레포지토리를 `fork` 한 뒤, fork한 레포지토리를 `clone` 해서 로컬로 내려받습니다.
-2. git init 명령어를 실행합니다.
-3. 로컬로 내려받은 레포지토리에 새로운 원격 저장소를 추가합니다.  
+1. 현재 레포지토리를 `fork` 한 뒤, fork한 레포지토리를 `clone` 해서 로컬로 내려받습니다.  
+2. 로컬로 내려받은 레포지토리에 새로운 원격 저장소를 추가합니다.  
 `git remote add upstream https://github.com/prgrms-web-devcourse/FEDC4-React-Document-Study.git`  
 
 ### 과제 제출 방법
