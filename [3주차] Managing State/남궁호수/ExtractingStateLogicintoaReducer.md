@@ -1,3 +1,6 @@
+
+#  state 로직을 reducer를 이용하여 구성하기
+
 컴포넌트가 복잡해지면 컴포넌트의 state가 업데이트 되는 다양한 경우를 파악하기 어려워질 수 있다. reducer를 사용한다. 이벤트 헨들러에서 action을 전달하여, 사용자가 '한 일'을 구체적으로 정한다. (예를 들어, 태스크 추가,변경,삭제)
 
 
@@ -118,7 +121,7 @@ export default function tasksReducer(tasks, action) {
 }
 ```
 
-####useReducer
+### useReducer
 useReducer를 사용하면 reducer 함수와 action을 전달하는 부분을 작성한다.
 업데이트 로직이 어떻게 동작하는지, 이벤트 헨들러를 통해 무엇이 일어났는지 쉽게 알 수 있다.
 reducer는 순수해야 한다. (같은 입력, 같은 출력)

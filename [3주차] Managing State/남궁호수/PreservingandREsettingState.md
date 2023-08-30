@@ -1,3 +1,5 @@
+# state 보존, 그리고 재설정하기
+
 react는 UI 트리에서 특정 컴포넌트가 어디에 위치하는지에 따라 보유하고 있는 각 state를 올바른 컴포넌트와 연결한다.
 
 react는 컴포넌트를 제거하면 해당 state가 사라진다.
@@ -106,7 +108,7 @@ function Counter({ isFancy }) {
 
 리렌더링 사이에 state를 유지하려면 트리의 구조가 일치해야 한다. 구조가 다르면 react는 트리에서 컴포넌트를 제거할 때 state를 없앤다.
 
-#### 동일한 위치에서 state 재설정
+### 동일한 위치에서 state 재설정
 1. 컴포넌트를 다른 위치에 렌더링한다.
 ```jsx
 import { useState } from 'react';
@@ -199,6 +201,6 @@ function Counter({ person }) {
 }
 ```
 
-#### 정리
+### 정리
 1. react는 동일한 컴포넌트가 동일한 위치에서 렌더링되면 state를 유지한다.
 2. 다른 key를 지정하여 state를 재설정할 수 있다.
