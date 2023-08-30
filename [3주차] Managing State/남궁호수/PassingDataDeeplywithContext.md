@@ -98,7 +98,7 @@ export default function Section({ children }) {
 context를 사용하여 색상 테마, 현재 로그인한 사용자 등 전체 하위 트리에 필요한 모든 정보를 전달할 수 있다.
 
 
-### 수십개의 props를 수십개의 컴포넌트에 전달해야 하는 경우 (존재) 우선은 props 전달을 기본으로 할 것. 
+수십개의 props를 수십개의 컴포넌트에 전달해야 하는 경우 (존재) 우선은 props 전달을 기본으로 할 것. 
 
 ### context 사례
 1. 색상 테마
